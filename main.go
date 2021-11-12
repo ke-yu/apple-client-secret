@@ -68,7 +68,7 @@ func main() {
 	payload := AppleClientSecret{
 		Issuer:   conf.TeamID,
 		IssueAt:  time.Now().Unix(),
-		Expire:   time.Now().Add(60 * time.Minute).Unix(),
+		Expire:   time.Now().Add(259200 * time.Minute).Unix(),
 		Audience: "https://appleid.apple.com",
 		Sub:      conf.ServiceID,
 	}
