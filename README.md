@@ -1,5 +1,5 @@
-# Generate client secret for Apple get token call
-A util to generate client secret used in Apple get token call.
+# Generate client secret for Apple Sign In
+A util to generate client secret used in Apple Sign In.
 
 Create a config.json file with the following information:
 ```json
